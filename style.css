@@ -1,0 +1,76 @@
+/* Font family import link  */
+
+@import url('https://fonts.googleapis.com/css2?family=Fuzzy+Bubbles&display=swap');
+
+/* Body section  */
+
+body
+{
+    height: 95vh;
+    width: 100%;
+    background-image: url("02.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: overlay;
+    background-color:rgba(0,0,0,0.2);
+}
+
+/* Container div layout section  */
+
+.container
+{
+    text-align: center;
+    font-family: 'Fuzzy Bubbles', cursive;
+    width: 35%;
+    margin:7% auto 10%;
+}
+
+/* Input section  */
+
+input
+{
+    height: 50px;
+    margin: -18px 0;
+    width: 280px;
+    position: relative;
+    margin-right: 19px;
+    font-size: 40px;
+    font-family: 'Fuzzy Bubbles', cursive;
+    border-radius: 5px;
+    background-color: #a70e0e;
+    color: #f3c949;
+}
+
+/* Buttons and operator section  */
+
+button
+{
+    width: 80px;
+    height: 70px;
+    background-color:#F7D060;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin: 10px;
+    font-size: 40px;
+    font-family: 'Fuzzy Bubbles', cursive;
+    cursor: pointer;
+}
+
+button:hover
+{
+    background-color:#fac31b;
+}
+
+.flex
+{
+    display: flex;
+    flex-direction: column;
+}
+
+.head-text
+{
+    font-size: 55px;
+    font-weight: bold;
+    color: #F7D060;
+    -webkit-text-stroke: 0.3px black;
+}
